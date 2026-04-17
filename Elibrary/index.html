@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore - Explore & Download Free Books</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    
+  </head>
+  
+  <body>  
+    
+  <header class="header">
+      <div class="header-1">
+        <div class="logo">
+          <img src="ONLINE BOOKSTORE.png">
+        </div>
+
+        <form action="" class="from-box" id="search-form">
+          <input type="search" name=" " placeholder="search here.." id="search-box">
+          <label for="search-box"><i id="sec-search-btn" class="fas fa-search"></i></label>
+        </form>
+
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href=""><i class="fas fa-heart"></i></a>
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <div class="navbar">
+          <a href="#home">home</a>
+          <a href="#featured">featured</a>
+          <a href="#reviews">reviews</a>
+          <a href="credits">credits</a>
+        </div>
+      </div>
+  </header> 
+
+
+  <div class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#credits" class="fas fa-bookmark"></a>
+  </div>
+
+  <div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <form actions="">
+      <h3>sign in</h3> 
+      <div class="inputBox">
+        <span>email address</span>
+        <input type="email">
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <span>password</span>
+        <input type="password">
+        <i></i>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">remember-me</label>
+      </div>
+      <div class="links"><a href="">forgot password</a><a href="">signup</a></div>
+    </form>
+  </div>
+
+  <section class="home" id="home">
+    <div class="row">
+      <div class="content">
+        <h3>EXPLORE</h3>
+        <p>Freely access entire collection of books from every genre here...</p>
+      </div>
+      <div class="swiper books-list">
+        <div class="swiper-wrapper">
+          <a target="_blank" href="E-BOOKS/Dharmayoddha Kalki.pdf" class="swiper-slider"><img src="E-BOOKS/WALLPAPER/Dharmayoddha-Kalki-by-Kevin-Missal.jpg"></a>
+          <a target="_blank" href="E-BOOKS/satyayoddha-kalki.pdf" class="swiper-slider"><img src="E-BOOKS/WALLPAPER/satyayoddha-kalki- - Copy.jpg"></a>
+          <a target="_blank" href="E-BOOKS/Mahayoddha Kalki Sword of Shiva.pdf" class="swiper-slider"><img src="E-BOOKS/WALLPAPER/mahayodhya.jpg"></a>
+          <a target="_blank" href="E-BOOKS/instapdf.in-chetan-bhagat-revolution-twenty-20-800.pdf" class="swiper-slider"><img src="E-BOOKS/WALLPAPER/Revolution2020_Love_Corruption_Ambition - Copy.png"></a>
+          <a target="_blank" href="E-BOOKS/instapdf.in-chetan-bhagat-three-mistakes-of-my-life-948.pdf" class="swiper-slider"><img src="E-BOOKS/WALLPAPER/3 mistakes of life.jpg"></a>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section class="featured" id="featured">
+    <div class="heading"><span>featured books</span></div>
+    <div class="swiper featured-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <div class="icons">
+            <a href="" class="fas fa-search"></a>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-eye"></a>
+          </div>
+
+          <div class="image">
+            <img src="E-BOOKS/WALLPAPER/amazon web service.jpeg" alt="">
+          </div>
+
+          <div class="content">
+            <h3>amazon web services</h3>
+            <div class="download"><a href="E-BOOKS/documents_null-Amazon+Web+Services+in+Action.pdf" class="btn"><span>download</span></a></div>
+      
+          </div>
+      </div>
+      <div class="swiper-slide box">
+        <div class="icons">
+          <a href="" class="fas fa-search"></a>
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+        </div>
+
+        <div class="image">
+          <img src="E-BOOKS/WALLPAPER/datastructure - Copy.jpg" alt="">
+        </div>
+
+        <div class="content">
+          <h3>datastructure and algorithm</h3>
+          <div class="download"><a href="E-BOOKS/Dsa.pdf" class="btn"><span>download</span></a></div>
+    
+        </div>
+    </div>
+    <div class="swiper-slide box">
+      <div class="icons">
+        <a href="" class="fas fa-search"></a>
+        <a href="" class="fas fa-heart"></a>
+        <a href="" class="fas fa-eye"></a>
+      </div>
+
+      <div class="image">
+        <img src="E-BOOKS/WALLPAPER/mehula.jpg" alt="">
+      </div>
+
+      <div class="content">
+        <h3>immortals of mehula</h3>
+        <div class="download"><a href="E-BOOKS/Immortals of Meluha By Amish Tripathi.pdf" class="btn"><span>download</span></a></div>
+  
+      </div>
+  </div>
+  <div class="swiper-slide box">
+    <div class="icons">
+      <a href="" class="fas fa-search"></a>
+      <a href="" class="fas fa-heart"></a>
+      <a href="" class="fas fa-eye"></a>
+    </div>
+
+    <div class="image">
+      <img src="E-BOOKS/WALLPAPER/nagas.jpg" alt="">
+    </div>
+
+    <div class="content">
+      <h3>the secret of the nagas</h3>
+      <div class="download"><a href="E-BOOKS/the secret of the nagas By Amish Tripathi.pdf" class="btn"><span>download</span></a></div>
+
+    </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/vayuputras.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>oath of the vayuputras</h3>
+    <div class="download"><a href="E-BOOKS/the oath of the vayuputras By Amish Tripathi.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/lord of the rings.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>lord of the ring</h3>
+    <div class="download"><a href="E-BOOKS/Tolkien-J.-The-lord-of-the-rings-HarperCollins-ebooks-2010.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/Half-Girlfriend.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>half girlfriend</h3>
+    <div class="download"><a href="E-BOOKS/instapdf.in-chetan-bhagat-half-girlfriend-412.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/html.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>html&css</h3>
+    <div class="download"><a href="E-BOOKS/the-complete-reference-html-css-fifth-edition.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/2 states.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>2 states</h3>
+    <div class="download"><a href="E-BOOKS/instapdf.in-two-states-by-chetan-bhagat-320.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/bhawatgita.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>bhagavad gita</h3>
+    <div class="download"><a href="E-BOOKS/bhagwahatgita.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/JavaTheCompleteReference.webp" alt="">
+  </div>
+
+  <div class="content">
+    <h3>java programming</h3>
+    <div class="download"><a href="E-BOOKS/java programming.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/tales and legend of india.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>tales and legend of india</h3>
+    <div class="download"><a href="E-BOOKS/Tales_And_Legends_Of_India_-_Ruskin_Bond.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/c++ - Copy.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>c++</h3>
+    <div class="download"><a href="E-BOOKS/C++.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/The-Hobbit-pdf-free-download.jpg" alt="">
+  </div>
+
+  <div class="content">
+    <h3>the hobbit</h3>
+    <div class="download"><a href="E-BOOKS/the-hobbit-1.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="E-BOOKS/WALLPAPER/harry potter.jpg" alt=""> 
+  </div>
+
+  <div class="content">
+    <h3>Harry Potter</h3>
+    <div class="download"><a href="E-BOOKS/harrypotter.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+<div class="swiper-slide box">
+  <div class="icons">
+    <a href="" class="fas fa-search"></a>
+    <a href="" class="fas fa-heart"></a>
+    <a href="" class="fas fa-eye"></a>
+  </div>
+
+  <div class="image">
+    <img src="C:\Users\meeri\Documents\CUTM\CUTM PROJECTS\MAJOR PROJECT\online bookstore\E-BOOKS\images.webp" alt="">
+  </div>
+
+  <div class="content">
+    <h3>ms dhoni the untold story</h3>
+    <div class="download"><a href="E-BOOKS/MS Dhoni The Untold Story.pdf" class="btn"><span>download</span></a></div>
+
+  </div>
+</div>
+   <div class="swiper-button-next"></div>
+   <div class="swiper-button-prev"></div>
+</div>
+<script>
+   var swiper = new Swiper(".featured-slider", {
+
+spaceBetween: 10,
+loop:true,
+centeredSlides:true,
+autoplay:{
+  delay:9500,
+  disabledOnInteraction:false,
+
+},
+navigation: {
+  nextEl:".swiper-button-next",
+  prevEl:".swiper-button-prev",
+}, 
+breakpoints: {
+  0: {
+    slidesPerView: 1,
+
+  },
+  450: {
+    slidesPerView: 2,
+  },
+  768: {
+    slidesPerView: 3,
+
+  },
+  1024: {
+    slidesPerView: 4,
+
+  },
+},
+});
+</script>
+</section>
+
+
+  <section class="reviews" id="reviews">
+    <h1 class="heading"><span>user's reviews</span></h1>
+    <div class="swiper reviews-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="" alt="">
+         <h3>david degee</h3>
+         <div class="stars">
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+         </div>
+         <p>I read amazon web services from this website. Truly wonderful website. loved it <3 </p>
+        </div>
+        <div class="swiper-slide box">
+          <img src="" alt="">
+         <h3>subham kumar</h3>
+         <div class="stars">
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+         </div>
+         <p>The collection of entire series of Chetan Bhagat and Kalki are my favourites. </p>
+        </div>
+        <div class="swiper-slide box">
+          <img src="" alt="">
+         <h3>annirudha thapa</h3>
+         <div class="stars">
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+         </div>
+         <p>I really hope you release the next part of harry potter soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="credits" id="credits">
+    <h1 class="heading"><span>credits</span></h1>
+    <div class="arrival-section">
+    <div class="arrival-box">
+         <h3>Rishabh Sharma</h3> 
+    </div>
+    <div class="arrival-box">
+     <h3>Ankit Anand</h3> 
+    </div> 
+    <div class="arrival-box">
+      <h3>Shubham Gupta</h3> 
+    </div> 
+    <div class="arrival-box">
+      <h3>Arya Dhanraj</h3> 
+    </div>
+    <div class="arrival-box">
+     <h3>Sahil Kumar Malakar</h3> 
+    </div>
+<div class="arrival-box">
+  <h3>Srikant Kumar</h3> 
+</div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
